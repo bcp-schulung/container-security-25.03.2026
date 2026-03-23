@@ -1,0 +1,5 @@
+FROM registry.it-scholar.com/base-nginx:v1
+
+COPY index.html /usr/share/nginx/html/index.html
+
+EXPOSE 8080
