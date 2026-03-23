@@ -1,0 +1,1 @@
+trivy image my-nginx:v1
