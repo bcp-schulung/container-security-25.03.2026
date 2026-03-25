@@ -12,3 +12,6 @@ kubectl config set-context jane-dev \
   --cluster=kubernetes \
   --user=jane \
   --namespace=dev
+kubectl config use-context jane-dev
+kubectl get pods
+kubectl auth can-i get pods
