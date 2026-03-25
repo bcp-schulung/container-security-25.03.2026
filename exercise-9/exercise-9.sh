@@ -8,3 +8,7 @@ kubectl apply -f jane-role.yaml
 kubectl config set-credentials jane \
   --client-certificate=jane.crt \
   --client-key=jane.key
+kubectl config set-context jane-dev \
+  --cluster=kubernetes \
+  --user=jane \
+  --namespace=dev
